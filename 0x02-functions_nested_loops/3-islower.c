@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * -isalpha - checks for alphabetic character
+ * -islower - checks for case character
  *  @c: the character to be checked
  *  Return: 1 if c is a letter, 0 otherwise
  */
-int _isalpha(int c)
+int _islower(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	return ((c >= 'a' && c <= 'z');
 }
