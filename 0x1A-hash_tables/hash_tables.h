@@ -101,4 +101,3 @@ void insert_sort(shash_node_t *node, shash_table_t *ht);
 void free_list_s(shash_node_t *head);
 
 #endif
- 
